@@ -1,0 +1,12 @@
+Important note:
+
+This version of IBOL uses a slightly different method of keeping 
+track of which messages haven been read. For this reason, if you 
+are upgrading from any version prior to 0.250508, you must delete 
+the following files from your /sbbs/xtrn/ibol path:
+
+- ibol.lr
+- ibol.msg
+
+New files will be generated automatically the next time the
+script runs.
